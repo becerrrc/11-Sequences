@@ -12,11 +12,11 @@ is different from:
   -- LOOKING only at items AT even-numbered indices.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Raymond Becerra.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. READ the program below and RUN it.
+# DONE: 2. READ the program below and RUN it.
 #
 #   When you have read it, asking questions as needed,
 #   and you feel that you understand:
@@ -34,8 +34,8 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_string_lengths()
-    run_test_sum_even_integers()
-    run_test_sum_items_at_even_indices()
+    #run_test_sum_even_integers()
+    #run_test_sum_items_at_even_indices()
 
 # ----------------------------------------------------------------------
 # The TEST functions are further down in the file,
