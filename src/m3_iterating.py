@@ -304,11 +304,11 @@ def draw_circles(window, points, radius, color):
 
     for k in range(len(points)):
         circle = rg.Circle(points[k], radius)
-        #circle.fill_color(color[k])
+        circle.fill_color = color
         circle.attach_to(window)
         window.render()
 
-    window.close_on_mouse_click()
+
 
 
 # ----------------------------------------------------------------------
